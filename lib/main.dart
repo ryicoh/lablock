@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             ButtonTheme(
-              minWidth: 200.0,
+              minWidth: 180.0,
               height: 100.0,
               child: FlatButton(
                 color: Colors.blue,
@@ -107,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   _sendRequest("lock");
                 })),
             ButtonTheme(
-              minWidth: 200.0,
+              minWidth: 180.0,
               height: 100.0,
               child: FlatButton(
                 color: Colors.red,
